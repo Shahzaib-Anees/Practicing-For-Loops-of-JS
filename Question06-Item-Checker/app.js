@@ -3,7 +3,7 @@ let userInputItem = prompt("Welcome to My Bakery! What do you want to order");
 for(var a=0 ; a<bakeryItems.length ; a++){
     if(bakeryItems.includes(userInputItem)){
         document.write(`<div class="card">
-        <p>${userInputItem} is <b>available</b> at ${bakeryItems.indexOf(userInputItem)}</p>
+        <p>${userInputItem} is <b>available</b> at index ${bakeryItems.indexOf(userInputItem)} in our Bakery</p>
         </div>`);
         break;
     }else{
